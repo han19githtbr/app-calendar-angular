@@ -1,0 +1,83 @@
+.mat-form-field {
+  margin: 15px;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .calendar-date {
+    flex: 0 0 calc(14.28% - 10px);
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .date {
+    font-weight: bold;
+  }
+
+  .appointments {
+    margin-top: 10px;
+  }
+
+  .appointment {
+    //display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+  }
+
+  .delete{
+    width: 20px;
+    height: 20px;
+    line-height: 0px;
+    position: relative;
+    top: -4px;
+  }
+
+  .title {
+    flex: 1 1 auto;
+    margin-right: 10px;
+  }
+
+  .time {
+    font-size: 0.8rem;
+    color: #888;
+  }
+
+  .mat-datepicker-toggle{
+    position: absolute;
+    top: -28px;
+    right: -10px;
+  }
+
+  .mat-input-element {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  .cdk-live-announcer-element {
+    display: none !important;
+  }
+
+  .cdk-visually-hidden {
+    display: none !important;
+  }
+
+  .mat-raised-button {
+    margin: 30px;
+    position: absolute;
+  }
+
+  .title-calendar-app {
+    margin-top: 25px;
+    margin-left: 15px;
+ }
