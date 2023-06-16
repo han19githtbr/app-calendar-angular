@@ -26,7 +26,10 @@
             <div class="title">{{ appointment.title }}</div>
             <div class="time">{{ appointment.time }}</div>
             <button mat-icon-button class="delete" color="warn" (click)="deleteAppointment(date, appointment)">
-            <mat-icon>delete</mat-icon>
+              <mat-icon>delete</mat-icon>
+            </button>
+            <button mat-icon-button class="update" color="warn" (click)="updateAppointment(date, appointment)">
+              <mat-icon>update</mat-icon>
             </button>
         </div>
       </div>

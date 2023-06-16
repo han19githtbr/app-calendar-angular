@@ -36,6 +36,10 @@ export class CalendarComponent {
     }
   }
 
+  updateAppointment(dateObj: { date: Date, appointments: { title: string, time: string }[] }, appointment: { title: string, time: string }) {
+
+  }
+
   onDrop(event: CdkDragDrop<{ date: Date, appointments: { title: string, time: string }[] }[]>) {
     moveItemInArray(this.calendarDates, event.previousIndex, event.currentIndex);
   }
